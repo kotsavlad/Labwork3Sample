@@ -17,7 +17,7 @@ namespace Labwork3Sample
             // IsCrossPagePostBack is used to avoid redundant load of the data through transferring from ResultPage1 to MainPage
             // Alternative without set of PostBackUrl property of Task1Button:
             //if (!(IsPostBack || (PreviousPage != null && PreviousPage.PreviousPage == this)))
-            // This work also for ResultPage2 unlike first solution (because Task2Button.PostBackUrl is empty):
+            // This work also for ResultPage2 unlike first solution (because Task2Button.PostBackUrl is empty).
             {
                 var DataDir = Server.MapPath(@"~/App_Data/");
                 //const string DataDir = @"c:\Programs\SampleData\";
